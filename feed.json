@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Blogomotic",
+    "description": "",
+    "home_page_url": "https://thertu.github.io/blogomotic",
+    "feed_url": "https://thertu.github.io/blogomotic/feed.json",
+    "user_comment": "",
+    "icon": "https://thertu.github.io/blogomotic/media/website/Logo-Blogomotic-domotique-et-DIY.png",
+    "author": {
+        "name": "Rtu160"
+    },
+    "items": [
+    ]
+}

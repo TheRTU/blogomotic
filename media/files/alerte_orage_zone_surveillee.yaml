@@ -1,0 +1,38 @@
+# Blogomotic - YAML en vrac
+# Exemple anonymise : alerte de foudre a proximite avec Blitzortung.
+# A adapter : capteurs Blitzortung, personne, zone et service de notification.
+# Le declenchement exige une foudre a moins de 10 km pendant 2 minutes,
+# plus de 5 impacts, la presence de l'utilisateur dans la zone,
+# et un delai minimum de 30 minutes depuis la precedente alerte.
+
+alias: Alerte orage - zone surveillee
+description: Notification si un orage proche est detecte par Blitzortung
+triggers:
+  - trigger: numeric_state
+    entity_id: sensor.distance_foudre_zone
+    below: 10
+    for:
+      minutes: 2
+conditions:
+  - condition: numeric_state
+    entity_id: sensor.compteur_foudre_zone
+    above: 5
+  - condition: zone.in_zone
+    target:
+      entity_id: person.utilisateur
+    options:
+      for: '00:00:00'
+      zone: zone.zone_surveillee
+  - condition: template
+    value_template: |
+      {{ this.attributes.last_triggered is none
+         or (now() - this.attributes.last_triggered).total_seconds() > 1800 }}
+actions:
+  - action: notify.mobile_app_mon_telephone
+    data:
+      title: "⛈️ Orage à proximité"
+      message: >
+        Orage détecté autour de la zone surveillée. Foudre à {{
+        states('sensor.distance_foudre_zone') }} km. Impacts détectés
+        : {{ states('sensor.compteur_foudre_zone') }}.
+mode: single

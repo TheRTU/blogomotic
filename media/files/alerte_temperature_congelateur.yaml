@@ -1,0 +1,43 @@
+# Exemple anonymisé pour Home Assistant
+# Adapter les noms d'entités et les services de notification à votre installation.
+alias: Alerte T° haute congélateur
+description: Alerte si le congélateur reste au-dessus de -5 °C pendant 45 minutes
+triggers:
+  - trigger: numeric_state
+    entity_id:
+      - sensor.temperature_congelateur
+    above: -5
+    for: '00:45:00'
+conditions: []
+actions:
+  - variables:
+      temperature: |
+        {{ states('sensor.temperature_congelateur') | float(0) | round(1) }}
+  - action: notify.mobile_app_telephone_1
+    data:
+      title: Problème congélo
+      message: |
+        Le congélateur est à {{ temperature }} °C depuis au moins 45 minutes.
+  - action: notify.mobile_app_telephone_2
+    data:
+      title: Problème congélo
+      message: >
+        Le congélateur est à {{ temperature }} °C depuis au moins 45 minutes.
+        Vérification nécessaire.
+  - action: notify.alexa_media_echo_cuisine
+    data:
+      message: >
+        Attention. Le congélateur est à {{ temperature }} degrés depuis au moins
+        quarante cinq minutes.
+  - action: notify.alexa_media_echo_salon
+    data:
+      message: >
+        Attention. Le congélateur est à {{ temperature }} degrés depuis au moins
+        quarante cinq minutes.
+  - action: notify.persistent_notification
+    data:
+      title: Problème congélo
+      message: >
+        Le congélateur est à {{ temperature }} °C depuis au moins 45 minutes.
+        Vérification nécessaire.
+mode: single

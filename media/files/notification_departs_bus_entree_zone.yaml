@@ -1,0 +1,40 @@
+# Exemple anonymisé pour Home Assistant : notification des prochains bus
+# À personnaliser : personne, zone, service de notification, lignes et capteurs d'horaires.
+# Les six capteurs doivent contenir une date/heure de départ exploitable par as_timestamp().
+
+alias: Notification des prochains bus à l'arrivée dans une zone
+description: >
+  Envoie les horaires des trois lignes de bus surveillées lorsqu'une personne
+  entre dans une zone définie.
+triggers:
+  - trigger: zone.entered
+    target:
+      entity_id: person.utilisateur
+    options:
+      zone: zone.pole_echanges
+conditions: []
+actions:
+  - action: notify.mobile_app_mon_telephone
+    data:
+      title: "🚌 Prochains départs"
+      message: >-
+        Ligne A ➜ Destination A
+
+        • dans {{ ((as_timestamp(states('sensor.bus_ligne_a_depart_1')) - now().timestamp()) / 60) | round(0) }} min
+
+        • dans {{ ((as_timestamp(states('sensor.bus_ligne_a_depart_2')) - now().timestamp()) / 60) | round(0) }} min
+
+
+        Ligne B ➜ Destination B
+
+        • dans {{ ((as_timestamp(states('sensor.bus_ligne_b_depart_1')) - now().timestamp()) / 60) | round(0) }} min
+
+        • dans {{ ((as_timestamp(states('sensor.bus_ligne_b_depart_2')) - now().timestamp()) / 60) | round(0) }} min
+
+
+        Ligne C ➜ Destination C
+
+        • dans {{ ((as_timestamp(states('sensor.bus_ligne_c_depart_1')) - now().timestamp()) / 60) | round(0) }} min
+
+        • dans {{ ((as_timestamp(states('sensor.bus_ligne_c_depart_2')) - now().timestamp()) / 60) | round(0) }} min
+mode: single

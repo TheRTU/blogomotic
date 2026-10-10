@@ -1,0 +1,55 @@
+# Blogomotic - YAML en vrac
+# Automatisation Home Assistant anonymisee.
+# A personnaliser avant utilisation :
+# - climate.climatisation_salon : entite de la climatisation
+# - binary_sensor.fenetre_salon_1 : premiere fenetre du salon
+# - binary_sensor.fenetre_salon_2 : deuxieme fenetre du salon
+# - binary_sensor.fenetre_salle_a_manger : fenetre de la salle a manger
+# Les capteurs d'ouverture doivent avoir l'etat 'on' lorsqu'ils sont ouverts.
+
+alias: Climatisation salon - Coupure fenêtres ouvertes
+description: >
+  Coupe la climatisation si une fenêtre du salon ou de la salle à manger reste
+  ouverte plus de 5 minutes, sauf en mode ventilation seule. Restaure le mode
+  précédent lorsque toutes les fenêtres sont fermées.
+triggers:
+  - trigger: state
+    entity_id: binary_sensor.fenetre_salon_1
+    to: 'on'
+    for:
+      minutes: 5
+  - trigger: state
+    entity_id: binary_sensor.fenetre_salon_2
+    to: 'on'
+    for:
+      minutes: 5
+  - trigger: state
+    entity_id: binary_sensor.fenetre_salle_a_manger
+    to: 'on'
+    for:
+      minutes: 5
+conditions:
+  - condition: template
+    value_template: >
+      {{ states('climate.climatisation_salon') not in
+         ['off', 'fan_only', 'unknown', 'unavailable'] }}
+actions:
+  - variables:
+      mode_avant_coupure: "{{ states('climate.climatisation_salon') }}"
+  - action: climate.turn_off
+    target:
+      entity_id: climate.climatisation_salon
+  - wait_template: >
+      {{
+        is_state('binary_sensor.fenetre_salon_1', 'off')
+        and
+        is_state('binary_sensor.fenetre_salon_2', 'off')
+        and
+        is_state('binary_sensor.fenetre_salle_a_manger', 'off')
+      }}
+  - action: climate.set_hvac_mode
+    target:
+      entity_id: climate.climatisation_salon
+    data:
+      hvac_mode: '{{ mode_avant_coupure }}'
+mode: single

@@ -1,0 +1,458 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Notifications - Blogomotic</title><meta name="description" content="Une maison connectée qui automatise des choses, c’est bien. Une maison capable de prévenir lorsqu’il se passe quelque chose d’important, c’est encore mieux. Home Assistant&amp;hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="stylesheet" href="https://thertu.github.io/blogomotic/media/plugins/syntaxHighlighter/prism-black.css"><link rel="canonical" href="https://thertu.github.io/blogomotic/notifications.html"><link rel="alternate" type="application/atom+xml" href="https://thertu.github.io/blogomotic/feed.xml" title="Blogomotic - RSS"><link rel="alternate" type="application/json" href="https://thertu.github.io/blogomotic/feed.json" title="Blogomotic - JSON"><meta property="og:title" content="Notifications"><meta property="og:image" content="https://thertu.github.io/blogomotic/media/website/Logo-Blogomotic-domotique-et-DIY.png"><meta property="og:image:width" content="1774"><meta property="og:image:height" content="887"><meta property="og:site_name" content="Blogomotic"><meta property="og:description" content="Une maison connectée qui automatise des choses, c’est bien. Une maison capable de prévenir lorsqu’il se passe quelque chose d’important, c’est encore mieux. Home Assistant&amp;hellip;"><meta property="og:url" content="https://thertu.github.io/blogomotic/notifications.html"><meta property="og:type" content="article"><link rel="stylesheet" href="https://thertu.github.io/blogomotic/assets/css/style.css?v&#x3D;a0096ad093a5b7eefd992d7ac43db7e5"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://thertu.github.io/blogomotic/notifications.html"},"headline":"Notifications","datePublished":"2026-10-06T16:03+02:00","dateModified":"2026-10-10T19:26+02:00","image":{"@type":"ImageObject","url":"https://thertu.github.io/blogomotic/media/website/Logo-Blogomotic-domotique-et-DIY.png","height":887,"width":1774},"description":"Une maison connectée qui automatise des choses, c’est bien. Une maison capable de prévenir lorsqu’il se passe quelque chose d’important, c’est encore mieux. Home Assistant&hellip;","author":{"@type":"Person","name":"Rtu160","url":"https://thertu.github.io/blogomotic/authors/rtu160/"},"publisher":{"@type":"Organization","name":"Rtu160","logo":{"@type":"ImageObject","url":"https://thertu.github.io/blogomotic/media/website/Logo-Blogomotic-domotique-et-DIY.png","height":887,"width":1774}}}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body class="page-template"><div class="container container--center"><header class="header"><div class="header__logo"><a class="logo" href="https://thertu.github.io/blogomotic/"><img src="https://thertu.github.io/blogomotic/media/website/Logo-Blogomotic-domotique-et-DIY.png" alt="Blogomotic" width="1774" height="887"></a></div><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://thertu.github.io/blogomotic/" target="_self">Accueil</a></li><li><a href="https://thertu.github.io/blogomotic/mon-installation-domotique.html" target="_self">Mon installation</a></li><li class="active-parent has-submenu"><a href="https://thertu.github.io/blogomotic/home-assistant.html" target="_self" aria-haspopup="true">Home Assistant</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="https://thertu.github.io/blogomotic/automatisations.html" target="_self">Automatisations</a></li><li><a href="https://thertu.github.io/blogomotic/dashboards.html" target="_self">Dashboards</a></li><li><a href="https://thertu.github.io/blogomotic/integrations.html" target="_self">Intégrations</a></li><li><a href="https://thertu.github.io/blogomotic/scripts.html" target="_self">Scripts</a></li><li class="active"><a href="https://thertu.github.io/blogomotic/notifications.html" target="_self">Notifications</a></li><li><a href="https://thertu.github.io/blogomotic/problemes-solutions.html" target="_self">Problèmes, solutions &amp; astuces</a></li></ul></li><li class="has-submenu"><a href="https://thertu.github.io/blogomotic/materiel.html" target="_self" aria-haspopup="true">Matériel</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="https://thertu.github.io/blogomotic/raspberry-pi-4.html" target="_self">Raspberry Pi 4</a></li><li><a href="https://thertu.github.io/blogomotic/onduleur-eaton-3s700f.html" target="_self">Onduleur Eaton 3S700F</a></li><li><a href="https://thertu.github.io/blogomotic/coordinateur-zigbee-sonoff.html" target="_self">Coordinateur Zigbee Sonoff</a></li><li><a href="https://thertu.github.io/blogomotic/matter-et-thread.html" target="_self">Matter et Thread</a></li><li><a href="https://thertu.github.io/blogomotic/detecteurs-de-mouvement.html" target="_self">Détecteurs de mouvement</a></li><li><a href="https://thertu.github.io/blogomotic/capteurs-douverture.html" target="_self">Capteurs d&#x27;ouverture</a></li><li><a href="https://thertu.github.io/blogomotic/capteurs-de-temperature-et-dhumidite.html" target="_self">Capteurs de température et d&#x27;humidité</a></li><li><a href="https://thertu.github.io/blogomotic/detecteurs-de-fuite-deau.html" target="_self">Détecteurs de fuite d&#x27;eau</a></li><li><a href="https://thertu.github.io/blogomotic/prises-et-modules-zigbee.html" target="_self">Prises et modules Zigbee</a></li><li><a href="https://thertu.github.io/blogomotic/interrupteurs-et-boutons-zigbee.html" target="_self">Interrupteurs et boutons Zigbee</a></li><li><a href="https://thertu.github.io/blogomotic/sirenes.html" target="_self">Sirènes</a></li><li><a href="https://thertu.github.io/blogomotic/cameras.html" target="_self">Caméras</a></li><li><a href="https://thertu.github.io/blogomotic/assistants-vocaux.html" target="_self">Assistants vocaux</a></li><li><a href="https://thertu.github.io/blogomotic/tablette-murale.html" target="_self">Tablette murale</a></li><li><a href="https://thertu.github.io/blogomotic/modules-esp32.html" target="_self">Modules ESP32</a></li></ul></li><li><a href="https://thertu.github.io/blogomotic/yaml-en-vrac-a-telecharger.html" target="_self">YAML en vrac à télécharger</a></li></ul></nav></header><main class="content page"><article class="post"><header><h1 class="post__title">Notifications</h1></header><div class="post__entry"><p>Une maison connectée qui automatise des choses, c’est bien. Une maison capable de prévenir lorsqu’il se passe quelque chose d’important, c’est encore mieux.</p><p>Home Assistant peut envoyer des notifications de nombreuses façons : sur un smartphone, une tablette, un assistant vocal ou encore différents services externes.</p><p>Dans mon installation, elles jouent un rôle important. Elles permettent de signaler un événement inhabituel, de transmettre une information utile ou simplement de confirmer qu’une automatisation a bien fait son travail.</p><h2>Les notifications sur smartphone</h2><p>C’est probablement le moyen que j’utilise le plus.</p><p>Grâce à l’application Home Assistant installée sur nos téléphones, je peux envoyer des notifications directement depuis une automatisation.</p><p>Elles servent par exemple à signaler :</p><ul><li>une fuite d’eau détectée ;</li><li>une température anormale du congélateur ;</li><li>une fenêtre laissée ouverte alors que la climatisation fonctionne ;</li><li>une batterie faible sur un appareil ;</li><li>un équipement devenu indisponible ;</li><li>l’arrivée de courrier dans la boîte aux lettres ;</li><li>certaines alertes météo.</li></ul><p>Selon le type d’information, la notification peut être envoyée uniquement sur mon téléphone ou également sur celui de mon épouse.</p><p>Cela permet de réserver les alertes importantes aux personnes concernées et d’éviter de transformer les smartphones de la maison en sapins de Noël numériques.</p><h2>Les annonces vocales</h2><p>Certaines informations sont plus utiles lorsqu’elles sont annoncées directement dans la maison.</p><p>J’utilise pour cela plusieurs appareils Amazon Echo intégrés à Home Assistant.</p><p>Ils peuvent par exemple annoncer :</p><ul><li>l’arrivée du courrier ;</li><li>qu’une fenêtre est ouverte alors que la climatisation fonctionne ;</li><li>certaines informations liées aux réveils ;</li><li>le passage de la Station spatiale internationale (ISS) au-dessus de mon domicile ;</li><li>une alerte en cas d’intrusion.</li></ul><p>L’intérêt est différent d’une notification sur téléphone : l’information est immédiatement entendue par les personnes présentes dans la pièce.</p><p>Je réserve donc les annonces vocales aux événements qui nécessitent une réaction rapide ou qui ont un intérêt immédiat.</p><h2>Les annonces sur le robot ESP32</h2><p>J'ai construit un petit robot sur base ESP32 avec ESPHome relié à Home Assistant. Celui-ci peut m'informer par exemple d'une mise à jour importante de Home Assistant (core ou superviseur).</p><figure class="post__image post__image--center"><img loading="lazy" src="https://thertu.github.io/blogomotic/media/posts/8/notifications.gif" alt="" width="280" height="498"></figure><h2>Informer sans saturer</h2><p>Le principal risque lorsqu’on commence à utiliser les notifications est d’en créer beaucoup trop.</p><p>Au début, il est tentant de vouloir être averti de tout. Mais une notification qui apparaît dix fois par jour finit rapidement par être ignorée.</p><p>J’essaie donc de respecter quelques principes simples :</p><ul><li><p>ne notifier que les événements réellement utiles ;</p></li><li><p>ajouter un délai lorsque l’état peut être temporaire ;</p></li><li><p>éviter de répéter plusieurs fois la même alerte ;</p></li><li><p>choisir le bon canal selon l’importance de l’information.</p></li></ul><p>Par exemple, un appareil qui devient indisponible pendant quelques secondes n’a rien d’exceptionnel. Dans mon installation, certaines alertes ne sont donc envoyées que si l’équipement reste indisponible pendant plusieurs minutes.</p><p>Même principe pour le congélateur : une variation temporaire de température lors de son ouverture n’a aucun intérêt. L’alerte n’est déclenchée que si la température reste anormalement élevée suffisamment longtemps.</p><h2>Des notifications adaptées au contexte</h2><p>Home Assistant permet également de combiner les notifications avec toutes les informations disponibles dans la maison.</p><p>Une alerte peut dépendre :</p><ul><li><p>de la présence ou non des occupants ;</p></li><li><p>de l’heure ;</p></li><li><p>de l’état d’un appareil ;</p></li><li><p>d’une température ;</p></li><li><p>d’un capteur d’ouverture ;</p></li><li><p>de la météo ;</p></li><li><p>ou de plusieurs conditions simultanément.</p></li></ul><p>C’est ce qui rend les notifications réellement intéressantes.</p><p>Il ne s’agit plus simplement de recevoir un message lorsqu’un capteur change d’état, mais de recevoir la bonne information, au bon moment.</p><h2>Quelques exemples dans mon installation</h2><p>Au fil du temps, les notifications se sont intégrées naturellement à de nombreuses automatisations.</p><p>La surveillance des fuites d’eau permet d’être averti immédiatement en cas de détection.</p><figure class="post__image post__image--center"><img loading="lazy" src="https://thertu.github.io/blogomotic/media/posts/8/Automatisation_fuite1.png" alt="" width="1200" height="598" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_fuite1-xs.png 300w, https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_fuite1-sm.png 480w, https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_fuite1-md.png 768w, https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_fuite1-lg.png 1024w"></figure><p>La surveillance du congélateur déclenche une alerte si sa température reste trop élevée pendant une durée suffisamment longue.</p><p>Une fenêtre ouverte alors que la climatisation fonctionne génère une annonce sur Alexa.</p><p>Home Assistant surveille également certains équipements et m’avertit lorsqu’un appareil devient indisponible ou lorsque la batterie d’un capteur commence à être faible.</p><p>La boîte aux lettres dispose elle aussi de son propre capteur : lorsqu’un mouvement y est détecté, une annonce est diffusée dans la maison et une notification est envoyée sur smartphone. Le robot ESP32 (fabrication maison) sur mon bureau fait clignoter son anneau LED pour m'informer.</p><figure class="post__image post__image--center"><img loading="lazy" src="https://thertu.github.io/blogomotic/media/posts/8/Automatisation_bal1-2.png" alt="" width="1728" height="779" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_bal1-2-xs.png 300w, https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_bal1-2-sm.png 480w, https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_bal1-2-md.png 768w, https://thertu.github.io/blogomotic/media/posts/8/responsive/Automatisation_bal1-2-lg.png 1024w"></figure><p>Enfin, la météo, les températures relevées au nord et au sud de la maison ainsi que les niveaux de pollution ou de pollens sont diffusés 3 fois par jour sur Alexa si les occupants sont à la maison.</p><h2>Une maison qui sait attirer l’attention</h2><p>Les notifications sont finalement le lien entre les automatismes et les occupants.</p><p>La plupart du temps, Home Assistant travaille silencieusement en arrière-plan. Mais lorsqu’une intervention humaine devient nécessaire, il doit être capable de le signaler clairement.</p><p>Bien configurées, les notifications permettent donc à la maison de rester discrète lorsqu’elle n’a rien à dire… et de se faire entendre lorsque cela devient utile.</p><h2><strong>Quelques exemples d'automatisations en YAML</strong></h2><p>Attention, le code a été anonymisé, les identifiants sont fictifs. </p><p><em><strong>Annonce de courrier dans la boîte aux lettres</strong></em></p><pre class="language-yaml"><code>alias: Annonce sur détection boîte aux lettres
+description: Notification visuelle, vocale et mobile à l'arrivée du courrier
+
+triggers:
+  - trigger: state
+    entity_id: binary_sensor.detecteur_boite_aux_lettres
+    from: "off"
+    to: "on"
+
+conditions: []
+
+actions:
+  - variables:
+      anneau_etat: "{{ states('light.robot_anneau_led') }}"
+      anneau_brightness: &gt;
+        {{ state_attr('light.robot_anneau_led', 'brightness')
+           | int(255) }}
+      anneau_rgb: &gt;
+        {{ state_attr('light.robot_anneau_led', 'rgb_color') }}
+      anneau_effect: &gt;
+        {{ state_attr('light.robot_anneau_led', 'effect') }}
+
+  # Clignotement orange du robot
+  - repeat:
+      count: 3
+      sequence:
+        - action: light.turn_on
+          target:
+            entity_id: light.robot_anneau_led
+          data:
+            brightness_pct: 100
+            rgb_color:
+              - 255
+              - 128
+              - 0
+            effect: None
+
+        - delay:
+            seconds: 1
+
+        - action: light.turn_off
+          target:
+            entity_id: light.robot_anneau_led
+
+        - delay:
+            seconds: 1
+
+  # Restauration de l'état initial de l'anneau
+  - choose:
+      - conditions:
+          - condition: template
+            value_template: &gt;
+              {{ anneau_etat == 'on'
+                 and anneau_effect is not none
+                 and anneau_effect not in ['None', 'none', ''] }}
+        sequence:
+          - action: light.turn_on
+            target:
+              entity_id: light.robot_anneau_led
+            data:
+              brightness: "{{ anneau_brightness }}"
+              effect: "{{ anneau_effect }}"
+
+      - conditions:
+          - condition: template
+            value_template: &gt;
+              {{ anneau_etat == 'on'
+                 and anneau_rgb is not none }}
+        sequence:
+          - action: light.turn_on
+            target:
+              entity_id: light.robot_anneau_led
+            data:
+              brightness: "{{ anneau_brightness }}"
+              rgb_color: "{{ anneau_rgb }}"
+              effect: None
+
+      - conditions:
+          - condition: template
+            value_template: "{{ anneau_etat == 'on' }}"
+        sequence:
+          - action: light.turn_on
+            target:
+              entity_id: light.robot_anneau_led
+            data:
+              brightness: "{{ anneau_brightness }}"
+
+    default:
+      - action: light.turn_off
+        target:
+          entity_id: light.robot_anneau_led
+
+  # Annonce vocale sur Alexa
+  - action: media_player.volume_set
+    target:
+      entity_id: media_player.salon_echo
+    data:
+      volume_level: 0.5
+
+  - action: notify.send_message
+    target:
+      entity_id: notify.salon_echo_announce
+    data:
+      message: "Y a un truc dans la boîte aux lettres !"
+
+  # Notifications sur les smartphones
+  - action: notify.mobile_app_smartphone_1
+    data:
+      title: "📬 Boîte aux lettres"
+      message: "Y a un truc dans la boîte !"
+
+  - action: notify.mobile_app_smartphone_2
+    data:
+      title: "📬 Boîte aux lettres"
+      message: "Y a un truc dans la boîte aux lettres !"
+
+  # Restauration du volume Alexa
+  - action: media_player.volume_set
+    target:
+      entity_id: media_player.salon_echo
+    data:
+      volume_level: 0.4
+
+mode: single</code></pre><p> </p><p><em><strong>Bulletin météo, températures, pollen et pollution sur Alexa 3 fois/jour</strong></em></p><pre class="language-yaml"><code>alias: Bulletin météo, pollution et pollens
+description: Bulletin vocal diffusé si une personne est présente
+
+triggers:
+  - trigger: time
+    at: "08:30:00"
+  - trigger: time
+    at: "12:00:00"
+  - trigger: time
+    at: "18:30:00"
+
+conditions:
+  - condition: or
+    conditions:
+      - condition: state
+        entity_id: device_tracker.smartphone_1
+        state: home
+      - condition: state
+        entity_id: device_tracker.smartphone_2
+        state: home
+      - condition: state
+        entity_id: device_tracker.smartphone_3
+        state: home
+
+actions:
+  - variables:
+      meteo_state: "{{ states('weather.ma_commune') }}"
+      meteo_temp: "{{ states('sensor.temperature_exterieure') | float(none) }}"
+      meteo_wind: &gt;-
+        {{ state_attr('weather.ma_commune', 'wind_speed') | float(none) }}
+      meteo_wind_bearing: &gt;-
+        {{ state_attr('weather.ma_commune', 'wind_bearing') | float(none) }}
+      meteo_precip: &gt;-
+        {{ state_attr('weather.ma_commune', 'precipitation') | float(none) }}
+
+      meteo_wind_dir: |
+        {% set dir = meteo_wind %}
+        {% set dir = meteo_wind_bearing %}
+        {% if dir is none %}
+          inconnue
+        {% elif dir &gt;= 337.5 or dir &lt; 22.5 %}
+          nord
+        {% elif dir &lt; 67.5 %}
+          nord-est
+        {% elif dir &lt; 112.5 %}
+          est
+        {% elif dir &lt; 157.5 %}
+          sud-est
+        {% elif dir &lt; 202.5 %}
+          sud
+        {% elif dir &lt; 247.5 %}
+          sud-ouest
+        {% elif dir &lt; 292.5 %}
+          ouest
+        {% else %}
+          nord-ouest
+        {% endif %}
+
+      meteo_label: |
+        {% set m = {
+          'clear-night': 'ciel dégagé cette nuit',
+          'sunny': 'ensoleillé',
+          'partlycloudy': 'partiellement nuageux',
+          'cloudy': 'nuageux',
+          'rainy': 'pluvieux',
+          'pouring': 'fortes pluies',
+          'snowy': 'neigeux',
+          'snowy-rainy': 'neige et pluie',
+          'fog': 'brouillard',
+          'hail': 'grêle',
+          'lightning': 'orageux',
+          'lightning-rainy': 'orage avec pluie',
+          'windy': 'venteux',
+          'windy-variant': 'venteux et nuageux',
+          'exceptional': 'conditions exceptionnelles'
+        } %}
+        {{ m.get(meteo_state, meteo_state) }}
+
+      meteo_phrase: &gt;
+        Météo dans ma commune : {{ meteo_label | trim }}
+        {% if meteo_temp is not none %}
+          , {{ meteo_temp | round(0) }} degrés
+        {% endif %}
+        {% if meteo_wind is not none and meteo_wind_bearing is not none %}
+          , vent de {{ meteo_wind_dir | trim }}
+          à {{ meteo_wind | round(0) }} kilomètres heure
+        {% endif %}
+        {% if meteo_precip is not none %}
+          , précipitations {{ meteo_precip | round(1) }}
+        {% endif %}.
+
+      pollution: "{{ states('sensor.qualite_globale_ma_commune') | int(0) }}"
+
+      pollution_label: |
+        {% set m = {
+          1: 'faible',
+          2: 'faible',
+          3: 'modéré',
+          4: 'élevé',
+          5: 'très élevé',
+          6: 'extrêmement élevé',
+          7: 'en événement',
+          0: 'indisponible'
+        } %}
+        {{ m.get(pollution, 'indisponible') }}
+
+      pollution_phrase: |
+        {% if pollution in [1, 2, 3, 4, 5, 6] %}
+          Le niveau de pollution est {{ pollution_label | trim }}.
+        {% elif pollution == 7 %}
+          Un épisode de pollution est signalé.
+        {% else %}
+          Les données sur la pollution ne sont pas disponibles.
+        {% endif %}
+
+      pollution_detail: |
+        {% set items = [
+          ('dioxyde d’azote', 'sensor.dioxyde_d_azote_ma_commune'),
+          ('ozone', 'sensor.ozone_ma_commune'),
+          ('particules PM10', 'sensor.pm10_ma_commune'),
+          ('particules fines PM2.5', 'sensor.pm25_ma_commune')
+        ] %}
+        {% set labels = {
+          1: 'faible',
+          2: 'faible',
+          3: 'modéré',
+          4: 'élevé',
+          5: 'très élevé',
+          6: 'extrêmement élevé',
+          7: 'en événement'
+        } %}
+        {% set ns = namespace(out=[]) %}
+        {% for name, ent in items %}
+          {% set v = states(ent) | int(0) %}
+          {% if 3 &lt;= v &lt;= 7 %}
+            {% set ns.out = ns.out + [name ~ ' : ' ~ labels.get(v, v)] %}
+          {% endif %}
+        {% endfor %}
+        {{ ns.out | join(', ') }}
+
+      pollution_detail_phrase: |
+        {% if pollution_detail | trim != '' %}
+          Polluants à surveiller : {{ pollution_detail }}.
+        {% else %}
+          {{ '' }}
+        {% endif %}
+
+      pollens_alert: |
+        {% set items = [
+          ('ambroisie', 'sensor.niveau_ambroisie_ma_commune'),
+          ('armoise', 'sensor.niveau_armoise_ma_commune'),
+          ('aulne', 'sensor.niveau_aulne_ma_commune'),
+          ('bouleau', 'sensor.niveau_bouleau_ma_commune'),
+          ('graminées', 'sensor.niveau_graminee_ma_commune'),
+          ('olivier', 'sensor.niveau_olivier_ma_commune')
+        ] %}
+        {% set labels = {
+          1: 'très faible',
+          2: 'faible',
+          3: 'modéré',
+          4: 'élevé',
+          5: 'très élevé',
+          6: 'extrêmement élevé'
+        } %}
+        {% set ns = namespace(out=[]) %}
+        {% for name, ent in items %}
+          {% set v = states(ent) | int(0) %}
+          {% if 3 &lt;= v &lt;= 6 %}
+            {% set ns.out = ns.out + [name ~ ' : ' ~ labels.get(v, v)] %}
+          {% endif %}
+        {% endfor %}
+        {{ ns.out | join(', ') }}
+
+      pollen_phrase: |
+        {% if pollens_alert | trim != '' %}
+          Pollens à surveiller : {{ pollens_alert }}.
+        {% else %}
+          {{ '' }}
+        {% endif %}
+
+      mf_alerts_phrase: |
+        {% set s = 'sensor.vigilance_meteo_departement' %}
+        {% set risks = [
+          'Orages',
+          'Canicule',
+          'Vent violent',
+          'Pluie-inondation',
+          'Neige-verglas',
+          'Inondation',
+          'Grand-froid'
+        ] %}
+        {% set colors_say = {
+          'Jaune': 'jaune',
+          'Orange': 'orange',
+          'Rouge': 'rouge'
+        } %}
+        {% set ns = namespace(out=[]) %}
+        {% for r in risks %}
+          {% set v = state_attr(s, r) %}
+          {% if v is string %}
+            {% set v = v | trim %}
+          {% endif %}
+          {% if v in ['Jaune', 'Orange', 'Rouge'] %}
+            {% set ns.out = ns.out + [r ~ ' : ' ~ colors_say.get(v, v | lower)] %}
+          {% endif %}
+        {% endfor %}
+        {% if ns.out | length &gt; 0 %}
+          Alerte en cours : {{ ns.out | join(', ') }}.
+        {% else %}
+          {{ '' }}
+        {% endif %}
+
+      final_message: &gt;
+        {{ meteo_phrase }}
+        {% if mf_alerts_phrase | trim != '' %}
+          {{ mf_alerts_phrase | trim }}
+        {% endif %}
+        Pollution et pollen.
+        {{ pollution_phrase | trim }}
+        {% if pollution_detail_phrase | trim != '' %}
+          {{ pollution_detail_phrase | trim }}
+        {% endif %}
+        {% if pollen_phrase | trim != '' %}
+          {{ pollen_phrase | trim }}
+        {% endif %}
+
+  - action: media_player.volume_set
+    target:
+      entity_id: media_player.salon_echo
+    data:
+      volume_level: 0.4
+
+  - delay:
+      seconds: 5
+
+  - action: notify.alexa_media
+    data:
+      target:
+        - media_player.salon_echo
+      message: "{{ final_message }}"
+      data:
+        type: announce
+
+mode: single</code></pre><p> </p><p><em><strong>Passage de l'ISS au dessus de chez moi</strong></em></p><pre class="language-yaml"><code>alias: Notification Alexa passage ISS
+description: Annonce vocale du passage de l'ISS à proximité du domicile
+
+triggers:
+  - trigger: numeric_state
+    entity_id: sensor.distance_iss
+    below: 500
+
+conditions:
+  - condition: zone
+    entity_id: person.utilisateur
+    zone: zone.home
+
+  - condition: time
+    after: "08:00:00"
+    before: "22:00:00"
+
+actions:
+  # Réglage du volume
+  - action: media_player.volume_set
+    target:
+      entity_id: media_player.enceinte_salon
+    data:
+      volume_level: 0.5
+
+  # Signal sonore
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.enceinte_salon
+    data:
+      media:
+        media_content_id: buzzers_pistols_01
+        media_content_type: sound
+        metadata: {}
+
+  - delay:
+      seconds: 2
+
+  # Annonce vocale
+  - action: notify.alexa_media
+    data:
+      target:
+        - media_player.enceinte_salon
+      message: "L'ISS passe à proximité de mon domicile !"
+      data:
+        type: tts
+
+  - delay:
+      seconds: 3
+
+  # Restauration du volume
+  - action: media_player.volume_set
+    target:
+      entity_id: media_player.enceinte_salon
+    data:
+      volume_level: 0.4
+
+mode: single</code></pre><p> </p></div></article></main><footer class="footer"><div class="footer__inner"><div class="footer__copyright"><p>© 2026 Blogomotic<br><br></p></div></div></footer></div><script defer="defer" src="https://thertu.github.io/blogomotic/assets/js/scripts.min.js?v&#x3D;c2232aa7558e9517946129d2a1b8c770"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script><script>(function() {
+  const chemin = window.location.pathname;
+
+  // Affichage uniquement sur la page d'accueil
+  if (
+    chemin !== '/blogomotic/' &&
+    chemin !== '/blogomotic/index.html' &&
+    chemin !== '/'
+  ) return;
+
+  const compteur = document.createElement('div');
+  compteur.style.cssText =
+    'text-align:center; padding:20px 0; opacity:0.85;';
+
+  compteur.innerHTML = `
+    <img
+      src="https://hits.sh/thertu.github.io/blogomotic.svg?label=Visites&style=flat-square"
+      alt="Nombre de visites sur Blogomotic"
+    >
+  `;
+
+  (document.querySelector('footer') || document.body)
+    .appendChild(compteur);
+})();</script><script defer="defer" src="https://thertu.github.io/blogomotic/media/plugins/syntaxHighlighter/prism.js"></script></body></html>

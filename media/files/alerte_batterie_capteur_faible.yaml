@@ -1,0 +1,60 @@
+# Blogomotic - YAML en vrac
+# Exemple anonymisé d'automatisation Home Assistant.
+# À adapter : noms des capteurs de batterie et services de notification.
+# Les entités ci-dessous sont des exemples et doivent exister dans votre installation.
+
+alias: Alerte batterie capteur faible
+description: "Alerte lorsqu'un capteur passe sous 30 % de batterie"
+triggers:
+  - trigger: battery.level_crossed_threshold
+    target:
+      entity_id:
+        - sensor.telecommande_alarme_batterie
+        - sensor.telecommande_1_batterie
+        - sensor.telecommande_2_batterie
+        - sensor.telecommande_4_boutons_batterie
+        - sensor.telecommande_chambre_1_batterie
+        - sensor.telecommande_chambre_2_batterie
+        - sensor.capteur_boite_aux_lettres_batterie
+        - sensor.detecteur_porte_entree_1_batterie
+        - sensor.detecteur_porte_chambre_batterie
+        - sensor.detecteur_mouvement_bureau_batterie
+        - sensor.detecteur_mouvement_2_batterie
+        - sensor.detecteur_porte_entree_2_batterie
+        - sensor.capteur_fenetre_salle_a_manger_batterie
+        - sensor.capteur_fenetre_chambre_1_batterie
+        - sensor.capteur_fenetre_chambre_2_batterie
+        - sensor.capteur_fenetre_cuisine_batterie
+        - sensor.capteur_fenetre_salon_1_batterie
+        - sensor.capteur_fenetre_salon_2_batterie
+        - sensor.detecteur_fuite_cuisine_batterie
+        - sensor.detecteur_fuite_placard_batterie
+        - sensor.detecteur_fuite_salle_de_bains_batterie
+        - sensor.detecteur_fuite_wc_batterie
+        - sensor.thermometre_chambre_1_batterie
+        - sensor.thermometre_cuisine_batterie
+        - sensor.thermometre_chambre_2_batterie
+        - sensor.thermometre_exterieur_nord_batterie
+        - sensor.thermometre_exterieur_sud_batterie
+        - sensor.telecommande_balcon_batterie
+    options:
+      behavior: each
+      for: '00:00:00'
+      threshold:
+        type: below
+        value:
+          active_choice: number
+          number: 30
+conditions: []
+actions:
+  - action: notify.mobile_app_mon_telephone
+    metadata: {}
+    data:
+      title: Batterie capteur faible
+      message: Au moins un capteur a besoin d'un changement de pile
+  - action: notify.gmail
+    metadata: {}
+    data:
+      title: Batterie faible capteur
+      message: Un capteur a besoin d'un changement de pile.
+mode: single

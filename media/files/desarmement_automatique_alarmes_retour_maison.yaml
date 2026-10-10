@@ -1,0 +1,41 @@
+# Blogomotic - YAML en vrac
+# Désarmement automatique de deux alarmes au retour à la maison.
+# À adapter : les trois device_tracker et les deux alarm_control_panel.
+# Vérifiez les exigences de sécurité et de code de vos intégrations d'alarme.
+
+alias: Alarmes - Désarmement automatique au retour à la maison
+description: >
+  Désarme deux systèmes d'alarme lorsqu'une personne est détectée à la maison
+  depuis au moins une minute.
+triggers:
+  - trigger: state
+    entity_id:
+      - device_tracker.telephone_personne_1
+      - device_tracker.telephone_personne_2
+      - device_tracker.telephone_personne_3
+    to: home
+    for:
+      minutes: 1
+conditions: []
+actions:
+  - if:
+      - condition: state
+        entity_id: alarm_control_panel.alarme_principale
+        state:
+          - armed_away
+          - armed_home
+    then:
+      - action: alarm_control_panel.alarm_disarm
+        target:
+          entity_id: alarm_control_panel.alarme_principale
+  - if:
+      - condition: state
+        entity_id: alarm_control_panel.alarme_secondaire
+        state:
+          - armed_away
+          - armed_home
+    then:
+      - action: alarm_control_panel.alarm_disarm
+        target:
+          entity_id: alarm_control_panel.alarme_secondaire
+mode: single

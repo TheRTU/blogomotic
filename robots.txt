@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://thertu.github.io/blogomotic/sitemap.xml
