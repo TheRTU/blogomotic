@@ -3,10 +3,38 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2026-10-11T13:49:23+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
     <id>https://thertu.github.io/blogomotic</id>
 
+    <entry>
+        <title>IFA Berlin 2026 : les nouveautés de la maison connectée</title>
+        <author>
+            <name>Rtu160</name>
+        </author>
+        <link href="https://thertu.github.io/blogomotic/actu/ifa-berlin-2026-les-nouveautes-de-la-maison-connectee/"/>
+        <id>https://thertu.github.io/blogomotic/actu/ifa-berlin-2026-les-nouveautes-de-la-maison-connectee/</id>
+
+        <updated>2026-10-11T13:49:23+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    L'IFA de Berlin, l'un des plus grands salons internationaux consacrés à l'électronique grand public, s'est tenu du 4 au 8 septembre 2026. Comme chaque année,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>L'IFA de Berlin, l'un des plus grands salons internationaux consacrés à l'électronique grand public, s'est tenu du 4 au 8 septembre 2026.</p>
+<p>Comme chaque année, cet événement a été l'occasion pour les fabricants de présenter leurs dernières innovations, notamment dans le domaine de la domotique et de la maison connectée.</p>
+<p>La chaîne YouTube <strong>Smart Home Solver</strong> nous propose un tour d'horizon de 20 nouveautés découvertes pendant le salon.</p>
+<p>De nouveaux équipements connectés, des technologies toujours plus présentes dans nos habitations et des évolutions intéressantes pour les amateurs de domotique.</p>
+<p>Une vidéo en anglais, mais qui mérite le détour pour découvrir ce qui pourrait prochainement arriver dans nos maisons !</p>
+<p><strong>🎬 La vidéo :</strong></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/0M3AzF90iik" allowfullscreen="allowfullscreen"></iframe></figure>
+<p><em> </em></p>
+<p><strong>Source :</strong> <a href="https://www.youtube.com/@SmartHomeSolver">Smart Home Solver sur YouTube</a></p>
+            ]]>
+        </content>
+    </entry>
 </feed>

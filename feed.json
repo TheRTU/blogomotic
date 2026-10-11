@@ -10,5 +10,19 @@
         "name": "Rtu160"
     },
     "items": [
+        {
+            "id": "https://thertu.github.io/blogomotic/actu/ifa-berlin-2026-les-nouveautes-de-la-maison-connectee/",
+            "url": "https://thertu.github.io/blogomotic/actu/ifa-berlin-2026-les-nouveautes-de-la-maison-connectee/",
+            "title": "IFA Berlin 2026 : les nouveautés de la maison connectée",
+            "summary": "L'IFA de Berlin, l'un des plus grands salons internationaux consacrés à l'électronique grand public, s'est tenu du 4 au 8 septembre 2026. Comme chaque année,&hellip;",
+            "content_html": "<p>L'IFA de Berlin, l'un des plus grands salons internationaux consacrés à l'électronique grand public, s'est tenu du 4 au 8 septembre 2026.</p>\n<p>Comme chaque année, cet événement a été l'occasion pour les fabricants de présenter leurs dernières innovations, notamment dans le domaine de la domotique et de la maison connectée.</p>\n<p>La chaîne YouTube <strong>Smart Home Solver</strong> nous propose un tour d'horizon de 20 nouveautés découvertes pendant le salon.</p>\n<p>De nouveaux équipements connectés, des technologies toujours plus présentes dans nos habitations et des évolutions intéressantes pour les amateurs de domotique.</p>\n<p>Une vidéo en anglais, mais qui mérite le détour pour découvrir ce qui pourrait prochainement arriver dans nos maisons !</p>\n<p><strong>🎬 La vidéo :</strong></p>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/0M3AzF90iik\" allowfullscreen=\"allowfullscreen\"></iframe></figure>\n<p><em> </em></p>\n<p><strong>Source :</strong> <a href=\"https://www.youtube.com/@SmartHomeSolver\">Smart Home Solver sur YouTube</a></p>",
+            "author": {
+                "name": "Rtu160"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-10-11T13:49:23+02:00",
+            "date_modified": "2026-10-11T13:49:23+02:00"
+        }
     ]
 }
