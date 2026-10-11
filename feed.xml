@@ -3,7 +3,7 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>2026-10-11T17:01:39+02:00</updated>
+    <updated>2026-10-11T17:17:07+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
@@ -16,6 +16,14 @@
         </author>
         <link href="https://thertu.github.io/blogomotic/actu/sonoff-snzb-09p-une-nouvelle-sirene-zigbee-polyvalente/"/>
         <id>https://thertu.github.io/blogomotic/actu/sonoff-snzb-09p-une-nouvelle-sirene-zigbee-polyvalente/</id>
+            <category term="Zigbee"/>
+            <category term="ZHA"/>
+            <category term="Sécurité"/>
+            <category term="Sirène"/>
+            <category term="Siren"/>
+            <category term="SONOFF"/>
+            <category term="SNZB-09P"/>
+            <category term="Home Assistant"/>
 
         <updated>2026-10-11T16:53:52+02:00</updated>
             <summary type="html">
@@ -90,6 +98,12 @@
         </author>
         <link href="https://thertu.github.io/blogomotic/actu/ikea-grillplats-une-prise-matterthread-a-moins-de-8-eu/"/>
         <id>https://thertu.github.io/blogomotic/actu/ikea-grillplats-une-prise-matterthread-a-moins-de-8-eu/</id>
+            <category term="Thread"/>
+            <category term="Prise connectée"/>
+            <category term="Matter"/>
+            <category term="IKEA"/>
+            <category term="Home Assistant"/>
+            <category term="GRILLPLATS"/>
 
         <updated>2026-10-11T14:23:47+02:00</updated>
             <summary type="html">
@@ -143,6 +157,11 @@
         </author>
         <link href="https://thertu.github.io/blogomotic/actu/ifa-berlin-2026-les-nouveautes-de-la-maison-connectee/"/>
         <id>https://thertu.github.io/blogomotic/actu/ifa-berlin-2026-les-nouveautes-de-la-maison-connectee/</id>
+            <category term="Matter"/>
+            <category term="Maison connectée"/>
+            <category term="Innovations"/>
+            <category term="IFA 2026"/>
+            <category term="Domotique"/>
 
         <updated>2026-10-11T13:49:23+02:00</updated>
             <summary type="html">

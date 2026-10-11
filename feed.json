@@ -20,9 +20,17 @@
                 "name": "Rtu160"
             },
             "tags": [
+                   "Zigbee",
+                   "ZHA",
+                   "Sécurité",
+                   "Sirène",
+                   "Siren",
+                   "SONOFF",
+                   "SNZB-09P",
+                   "Home Assistant"
             ],
             "date_published": "2026-10-11T16:53:52+02:00",
-            "date_modified": "2026-10-11T17:01:39+02:00"
+            "date_modified": "2026-10-11T17:14:59+02:00"
         },
         {
             "id": "https://thertu.github.io/blogomotic/actu/ikea-grillplats-une-prise-matterthread-a-moins-de-8-eu/",
@@ -34,9 +42,15 @@
                 "name": "Rtu160"
             },
             "tags": [
+                   "Thread",
+                   "Prise connectée",
+                   "Matter",
+                   "IKEA",
+                   "Home Assistant",
+                   "GRILLPLATS"
             ],
             "date_published": "2026-10-11T14:23:47+02:00",
-            "date_modified": "2026-10-11T17:01:05+02:00"
+            "date_modified": "2026-10-11T17:15:12+02:00"
         },
         {
             "id": "https://thertu.github.io/blogomotic/actu/ifa-berlin-2026-les-nouveautes-de-la-maison-connectee/",
@@ -48,9 +62,14 @@
                 "name": "Rtu160"
             },
             "tags": [
+                   "Matter",
+                   "Maison connectée",
+                   "Innovations",
+                   "IFA 2026",
+                   "Domotique"
             ],
             "date_published": "2026-10-11T13:49:23+02:00",
-            "date_modified": "2026-10-11T17:00:18+02:00"
+            "date_modified": "2026-10-11T17:17:07+02:00"
         }
     ]
 }
