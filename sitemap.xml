@@ -106,10 +106,10 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/capteurs-douverture/</loc>
-<lastmod>2026-10-09T11:29:39+02:00</lastmod>
+<lastmod>2026-10-11T18:03:08+02:00</lastmod>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/22/CapteurOuv1.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Capteur d'ouverture Zigbee pour porte ou fenêtre, compatible avec Home Assistant]]></image:title>
 </image:image>
 </url>
 <url>
@@ -118,18 +118,18 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/coordinateur-zigbee-sonoff/</loc>
-<lastmod>2026-10-11T08:47:05+02:00</lastmod>
+<lastmod>2026-10-11T17:57:53+02:00</lastmod>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/20/Zigbee3.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Coordinateur USB SONOFF ZBDongle-E utilisé avec Home Assistant et ZHA]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/20/Zigbee6.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Interface de configuration du réseau Zigbee dans Home Assistant avec ZHA]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/20/Zigbee7.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Visualisation du réseau Zigbee maillé et des appareils connectés à Home Assistant]]></image:title>
 </image:image>
 </url>
 <url>
@@ -202,10 +202,10 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/detecteurs-de-mouvement/</loc>
-<lastmod>2026-10-09T11:22:24+02:00</lastmod>
+<lastmod>2026-10-11T18:01:44+02:00</lastmod>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/21/PirZigbee-2.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Détecteurs de mouvement PIR Zigbee utilisés avec Home Assistant et ZHA]]></image:title>
 </image:image>
 </url>
 <url>
@@ -266,14 +266,14 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/matter-et-thread/</loc>
-<lastmod>2026-10-09T11:10:11+02:00</lastmod>
+<lastmod>2026-10-11T18:00:34+02:00</lastmod>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/33/Matter1.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Présentation de Matter, standard de communication pour les équipements domotiques]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/33/Thread1.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Dongle SONOFF ZBDongle-E utilisé comme interface radio Thread avec Home Assistant]]></image:title>
 </image:image>
 </url>
 <url>
