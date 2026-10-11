@@ -262,7 +262,7 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/materiel/</loc>
-<lastmod>2026-10-10T10:58:27+02:00</lastmod>
+<lastmod>2026-10-11T17:49:21+02:00</lastmod>
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/matter-et-thread/</loc>
@@ -350,22 +350,22 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/onduleur-eaton-3s700f/</loc>
-<lastmod>2026-10-11T08:46:45+02:00</lastmod>
+<lastmod>2026-10-11T17:56:16+02:00</lastmod>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/19/Onduleur1.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Onduleur Eaton 3S700F utilisé pour protéger mon installation domotique]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/19/Onduleur2.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Onduleur Eaton 3S700F utilisé pour protéger mon installation domotique]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/19/Onduleur3-2.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Page de l'onduleur dans HA]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/19/Onduleur4.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Exemple des infos remontées dans HA]]></image:title>
 </image:image>
 </url>
 <url>
@@ -394,18 +394,18 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/raspberry-pi-4/</loc>
-<lastmod>2026-10-11T08:46:21+02:00</lastmod>
+<lastmod>2026-10-11T17:53:08+02:00</lastmod>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/18/Pi4.png.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Raspberry Pi 4 utilisé pour héberger mon installation Home Assistant]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/18/Pi4.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Présentation du Raspberry Pi 4 et de ses caractéristiques matérielles]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/18/OS1.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:title><![CDATA[Home Assistant OS, système d'exploitation installé sur le Raspberry Pi 4]]></image:title>
 </image:image>
 </url>
 <url>
