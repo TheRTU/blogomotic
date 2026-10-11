@@ -3,7 +3,7 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>2026-10-11T14:26:36+02:00</updated>
+    <updated>2026-10-11T14:27:33+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
@@ -47,9 +47,7 @@
 <p>La chaîne française <strong>AyLabs</strong> a publié le 3 octobre 2026 une présentation de cette nouvelle prise connectée.</p>
 <p>Pendant environ 7 minutes, son auteur revient sur les caractéristiques du produit, son évolution par rapport à l'INSPELNING et son intérêt pour une installation domotique utilisant Matter et Thread.</p>
 <p>Une vidéo intéressante pour découvrir ce que propose IKEA avec cette nouvelle génération d'équipements connectés.</p>
-<figure class="post__video">
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/dvrQ57zMFoE" allowfullscreen="allowfullscreen"></iframe></figure>
-</figure>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/dvrQ57zMFoE" allowfullscreen="allowfullscreen"></iframe></div>
 <h3>Une évolution intéressante à petit prix</h3>
 <p>À moins de 8 €, la GRILLPLATS semble proposer un rapport fonctionnalités/prix particulièrement intéressant.</p>
 <p>Reste à disposer d'une installation compatible Thread, ce qui n'est pas forcément le cas de tous les utilisateurs de Home Assistant, notamment ceux qui disposent exclusivement d'un réseau Zigbee.</p>
