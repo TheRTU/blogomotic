@@ -3,7 +3,7 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>2026-10-11T16:54:01+02:00</updated>
+    <updated>2026-10-11T17:01:39+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
@@ -76,9 +76,9 @@
 <p>Une évolution à suivre !</p>
 <p><strong>Sources :</strong></p>
 <ul>
-<li><a href="https://sonoff.tech/products/sonoff-zigbee-senseguard-indoor-siren-snzb-09p">SONOFF : présentation officielle de la SNZB-09P</a></li>
-<li><a href="https://www.zigbee2mqtt.io/devices/SNZB-09P.html">Zigbee2MQTT : fonctionnalités disponibles</a></li>
-<li><a href="https://github.com/zigpy/zha-device-handlers/pull/5136">GitHub : suivi de la PR #5136</a></li>
+<li><a href="https://sonoff.tech/products/sonoff-zigbee-senseguard-indoor-siren-snzb-09p" target="_blank" rel="noopener noreferrer">SONOFF : présentation officielle de la SNZB-09P</a></li>
+<li><a href="https://www.zigbee2mqtt.io/devices/SNZB-09P.html" target="_blank" rel="noopener noreferrer">Zigbee2MQTT : fonctionnalités disponibles</a></li>
+<li><a href="https://github.com/zigpy/zha-device-handlers/pull/5136" target="_blank" rel="noopener noreferrer">GitHub : suivi de la PR #5136</a></li>
 </ul>
             ]]>
         </content>
@@ -110,7 +110,7 @@
 <li>Être intégrée à des automatisations domotiques.</li>
 <li>Communiquer en Matter over Thread avec un système compatible.</li>
 </ul>
-<p>Elle peut ainsi servir à piloter un éclairage, programmer un appareil ou suivre sa consommation dans Home Assistant. <a href="https://www.ikea.com/fr/fr/p/grillplats-fiche-connecte-90624744/">IKEA</a></p>
+<p>Elle peut ainsi servir à piloter un éclairage, programmer un appareil ou suivre sa consommation dans Home Assistant. <a href="https://www.ikea.com/fr/fr/p/grillplats-fiche-connecte-90624744/" target="_blank" rel="noopener noreferrer">IKEA</a></p>
 <h3>Matter et Thread : attention à la compatibilité !</h3>
 <p>Contrairement à l'ancienne INSPELNING fonctionnant en Zigbee, la GRILLPLATS est commercialisée comme une prise Matter over Thread.</p>
 <p><strong>Il faut donc disposer d'un réseau Thread et d'un routeur de bordure Thread</strong> pour l'intégrer à une installation domotique.</p>
@@ -129,8 +129,8 @@
 <p>Une nouvelle référence à surveiller pour ceux qui souhaitent développer leur installation domotique autour de Matter !</p>
 <p><strong>Sources :</strong></p>
 <ul>
-<li><a href="https://www.ikea.com/fr/fr/p/grillplats-fiche-connecte-90624744/">IKEA : fiche officielle GRILLPLATS</a></li>
-<li><a href="https://aylabs.fr/videos">AyLabs : tests et vidéos domotiques</a></li>
+<li><a href="https://www.ikea.com/fr/fr/p/grillplats-fiche-connecte-90624744/" target="_blank" rel="noopener noreferrer">IKEA : fiche officielle GRILLPLATS</a></li>
+<li><a href="https://aylabs.fr/videos" target="_blank" rel="noopener noreferrer">AyLabs : tests et vidéos domotiques</a></li>
 </ul>
 <p><em>Article de découverte basé sur les informations du fabricant et la présentation d'AyLabs. Ce matériel n'a pas été testé par Blogomotic.</em></p>
             ]]>
@@ -160,7 +160,7 @@
 <p><strong>🎬 La vidéo :</strong></p>
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/0M3AzF90iik" allowfullscreen="allowfullscreen"></iframe></figure>
 <p><em> </em></p>
-<p><strong>Source :</strong> <a href="https://www.youtube.com/@SmartHomeSolver">Smart Home Solver sur YouTube</a></p>
+<p><strong>Source :</strong> <a href="https://www.youtube.com/@SmartHomeSolver" target="_blank" rel="noopener noreferrer">Smart Home Solver sur YouTube</a></p>
             ]]>
         </content>
     </entry>
