@@ -3,12 +3,65 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>2026-10-11T13:49:23+02:00</updated>
+    <updated>2026-10-11T14:23:47+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
     <id>https://thertu.github.io/blogomotic</id>
 
+    <entry>
+        <title>IKEA GRILLPLATS : une prise Matter/Thread à moins de 8 € !</title>
+        <author>
+            <name>Rtu160</name>
+        </author>
+        <link href="https://thertu.github.io/blogomotic/actu/ikea-grillplats-une-prise-matterthread-a-moins-de-8-eu/"/>
+        <id>https://thertu.github.io/blogomotic/actu/ikea-grillplats-une-prise-matterthread-a-moins-de-8-eu/</id>
+
+        <updated>2026-10-11T14:23:47+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    IKEA poursuit le renouvellement de sa gamme domotique avec la GRILLPLATS, une prise connectée utilisant le protocole Matter over Thread. Proposée à seulement 7,99 €,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>IKEA poursuit le renouvellement de sa gamme domotique avec la <strong>GRILLPLATS</strong>, une prise connectée utilisant le protocole Matter over Thread.</p>
+<p>Proposée à seulement <strong>7,99 €</strong>, elle succède à l'INSPELNING, une prise Zigbee qui avait déjà séduit de nombreux utilisateurs de Home Assistant.</p>
+<p>Avec ce nouveau modèle, IKEA mise sur une technologie différente, tout en conservant ce qui faisait l'intérêt de son prédécesseur : un prix accessible et le suivi de la consommation électrique.</p>
+<h3>Une petite prise qui sait faire plusieurs choses</h3>
+<p>La GRILLPLATS permet notamment de :</p>
+<ul>
+<li>Allumer ou éteindre à distance un appareil électrique.</li>
+<li>Mesurer sa consommation d'énergie.</li>
+<li>Être intégrée à des automatisations domotiques.</li>
+<li>Communiquer en Matter over Thread avec un système compatible.</li>
+</ul>
+<p>Elle peut ainsi servir à piloter un éclairage, programmer un appareil ou suivre sa consommation dans Home Assistant. <a href="https://www.ikea.com/fr/fr/p/grillplats-fiche-connecte-90624744/">IKEA</a></p>
+<h3>Matter et Thread : attention à la compatibilité !</h3>
+<p>Contrairement à l'ancienne INSPELNING fonctionnant en Zigbee, la GRILLPLATS est commercialisée comme une prise Matter over Thread.</p>
+<p><strong>Il faut donc disposer d'un réseau Thread et d'un routeur de bordure Thread</strong> pour l'intégrer à une installation domotique.</p>
+<p>Une simple clé Zigbee ne suffit pas à elle seule.</p>
+<p>La passerelle IKEA DIRIGERA est une possibilité, mais elle n'est pas obligatoire si l'on dispose déjà d'une infrastructure Thread compatible.</p>
+<p>C'est un point important à vérifier avant de passer à la caisse !</p>
+<h3>🎬 La vidéo : GRILLPLATS, la relève de l'INSPELNING ?</h3>
+<p>La chaîne française <strong>AyLabs</strong> a publié le 3 octobre 2026 une présentation de cette nouvelle prise connectée.</p>
+<p>Pendant environ 7 minutes, son auteur revient sur les caractéristiques du produit, son évolution par rapport à l'INSPELNING et son intérêt pour une installation domotique utilisant Matter et Thread.</p>
+<p>Une vidéo intéressante pour découvrir ce que propose IKEA avec cette nouvelle génération d'équipements connectés.</p>
+<figure class="post__video"><video loading="lazy" width="615" height="305" style="width: 615px; height: 305px;" controls="controls"> <source src="https://aylabs.fr/video/grillplats-la-releve-de-l-inspelning-oui-c-est-ikea" data-mce-fragment="1"></video></figure>
+<h3>Une évolution intéressante à petit prix</h3>
+<p>À moins de 8 €, la GRILLPLATS semble proposer un rapport fonctionnalités/prix particulièrement intéressant.</p>
+<p>Reste à disposer d'une installation compatible Thread, ce qui n'est pas forcément le cas de tous les utilisateurs de Home Assistant, notamment ceux qui disposent exclusivement d'un réseau Zigbee.</p>
+<p>IKEA propose également un ensemble comprenant la prise et une télécommande pour <strong>9,99 €</strong>.</p>
+<p>Une nouvelle référence à surveiller pour ceux qui souhaitent développer leur installation domotique autour de Matter !</p>
+<p><strong>Sources :</strong></p>
+<ul>
+<li><a href="https://www.ikea.com/fr/fr/p/grillplats-fiche-connecte-90624744/">IKEA : fiche officielle GRILLPLATS</a></li>
+<li><a href="https://aylabs.fr/videos">AyLabs : tests et vidéos domotiques</a></li>
+</ul>
+<p><em>Article de découverte basé sur les informations du fabricant et la présentation d'AyLabs. Ce matériel n'a pas été testé par Blogomotic.</em></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>IFA Berlin 2026 : les nouveautés de la maison connectée</title>
         <author>
