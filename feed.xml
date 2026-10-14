@@ -3,7 +3,7 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>2026-10-14T07:57:57+02:00</updated>
+    <updated>2026-10-14T08:02:16+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
@@ -14,16 +14,15 @@
         <author>
             <name>Rtu160</name>
         </author>
-        <link href="https://thertu.github.io/blogomotic/actu/home-assistant-davantage-dintelligence-artificielle-et-un-nouveau-nom-pour-le-cloud/"/>
-        <id>https://thertu.github.io/blogomotic/actu/home-assistant-davantage-dintelligence-artificielle-et-un-nouveau-nom-pour-le-cloud/</id>
+        <link href="https://thertu.github.io/blogomotic/actu/home-assistant-2026-10-ia-mcp-link/"/>
+        <id>https://thertu.github.io/blogomotic/actu/home-assistant-2026-10-ia-mcp-link/</id>
             <category term="mcp"/>
-            <category term="link"/>
-            <category term="ia"/>
-            <category term="Maison connectée"/>
-            <category term="Innovations"/>
+            <category term="Nabu Casa"/>
+            <category term="Intelligence artificielle"/>
+            <category term="Home Assistant Link"/>
             <category term="Home Assistant"/>
             <category term="Domotique"/>
-            <category term="2026-10"/>
+            <category term="Actualités"/>
 
         <updated>2026-10-14T07:36:43+02:00</updated>
             <summary type="html">
