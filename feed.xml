@@ -3,12 +3,122 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>2026-10-11T17:17:07+02:00</updated>
+    <updated>2026-10-14T07:57:57+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
     <id>https://thertu.github.io/blogomotic</id>
 
+    <entry>
+        <title>Home Assistant : davantage d&#x27;intelligence artificielle et un nouveau nom pour le Cloud</title>
+        <author>
+            <name>Rtu160</name>
+        </author>
+        <link href="https://thertu.github.io/blogomotic/actu/home-assistant-davantage-dintelligence-artificielle-et-un-nouveau-nom-pour-le-cloud/"/>
+        <id>https://thertu.github.io/blogomotic/actu/home-assistant-davantage-dintelligence-artificielle-et-un-nouveau-nom-pour-le-cloud/</id>
+            <category term="mcp"/>
+            <category term="link"/>
+            <category term="ia"/>
+            <category term="Maison connectée"/>
+            <category term="Innovations"/>
+            <category term="Home Assistant"/>
+            <category term="Domotique"/>
+            <category term="2026-10"/>
+
+        <updated>2026-10-14T07:36:43+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Publié le 14 octobre 2026 Home Assistant poursuit son évolution avec la version 2026.10, publiée le 7 octobre 2026. Parmi les nouveautés, deux annonces méritent particulièrement&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>Publié le 14 octobre 2026</em></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://thertu.github.io/blogomotic/media/posts/40/Assistant-domotique-dans-un-salon-connecte.png" alt="" width="1200" height="800" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://thertu.github.io/blogomotic/media/posts/40/responsive/Assistant-domotique-dans-un-salon-connecte-xs.png 300w ,https://thertu.github.io/blogomotic/media/posts/40/responsive/Assistant-domotique-dans-un-salon-connecte-sm.png 480w ,https://thertu.github.io/blogomotic/media/posts/40/responsive/Assistant-domotique-dans-un-salon-connecte-md.png 768w ,https://thertu.github.io/blogomotic/media/posts/40/responsive/Assistant-domotique-dans-un-salon-connecte-lg.png 1024w"></figure>
+<p>Home Assistant poursuit son évolution avec la version <strong>2026.10</strong>, publiée le 7 octobre 2026. Parmi les nouveautés, deux annonces méritent particulièrement notre attention : une intégration simplifiée de l'intelligence artificielle et le changement de nom du service Home Assistant Cloud.</p>
+<p>Deux évolutions qui s'inscrivent dans la philosophie du projet : proposer une domotique ouverte, évolutive et respectueuse de la vie privée.</p>
+<h2>L'intelligence artificielle s'intègre davantage à Home Assistant</h2>
+<p>L'intelligence artificielle n'est pas une nouveauté dans Home Assistant. Plusieurs intégrations permettent déjà d'utiliser des modèles de langage pour interagir avec son installation.</p>
+<p>Avec la version 2026.10, Home Assistant franchit une nouvelle étape en simplifiant considérablement l'utilisation du protocole <strong>MCP (Model Context Protocol)</strong>.</p>
+<h3>Qu'est-ce que le protocole MCP ?</h3>
+<p>Le MCP est un protocole ouvert permettant à des applications utilisant l'intelligence artificielle de communiquer avec des services externes.</p>
+<p>Dans le cas de Home Assistant, il permet notamment à des outils comme ChatGPT, Claude ou Cursor d'interagir avec une installation domotique.</p>
+<p>Concrètement, selon les autorisations accordées, une intelligence artificielle peut :</p>
+<ul>
+<li>Consulter l'état de certains équipements.</li>
+<li>Connaître les températures relevées par les capteurs.</li>
+<li>Allumer ou éteindre des éclairages.</li>
+<li>Commander des appareils compatibles.</li>
+<li>Interagir avec les fonctions mises à disposition par Home Assistant.</li>
+</ul>
+<p>L'intérêt est de pouvoir dialoguer avec sa maison en langage naturel, sans nécessairement passer par les tableaux de bord habituels.</p>
+<h3>Une configuration désormais simplifiée</h3>
+<p>Jusqu'à présent, la configuration du serveur MCP nécessitait plusieurs manipulations.</p>
+<p>Avec Home Assistant 2026.10, une nouvelle section <strong>IA</strong> apparaît dans <strong>Paramètres → Système</strong>.</p>
+<p>Elle remplace l'ancienne page consacrée aux tâches d'intelligence artificielle et propose désormais une carte dédiée au protocole MCP.</p>
+<p>Il devient possible d'activer le serveur directement depuis cette interface et de récupérer les adresses nécessaires à la connexion d'une application compatible.</p>
+<p>Autre amélioration : Home Assistant peut maintenant découvrir automatiquement certains serveurs MCP présents sur le réseau, simplifiant également les échanges dans l'autre sens.</p>
+<p>Il faut cependant distinguer la simplification de la configuration du serveur et celle de la connexion d'un service externe. Selon l'application utilisée, des manipulations supplémentaires peuvent rester nécessaires.</p>
+<p><strong>Attention également à la sécurité.</strong> Par défaut, une nouvelle configuration MCP donne accès à l'ensemble des API LLM disponibles et réserve les connexions aux comptes administrateurs. Les équipements réellement accessibles dépendent ensuite des API et entités exposées. Ces autorisations sont configurables.</p>
+<p>Enfin, utiliser MCP ne signifie pas que l'intelligence artificielle fonctionne automatiquement en local. Cela dépend du modèle utilisé et de son hébergement.</p>
+<p>Une connexion depuis un service d'IA hébergé sur Internet nécessite également que Home Assistant soit accessible depuis l'extérieur, notamment via Home Assistant Cloud ou une autre solution d'accès distant adaptée.</p>
+<p>Cette évolution est particulièrement intéressante, car elle ouvre de nouvelles possibilités d'interaction avec une installation domotique, sans imposer un fournisseur d'intelligence artificielle particulier.</p>
+<p><strong>Documentation officielle :</strong></p>
+<p><a href="https://www.home-assistant.io/blog/2026/10/07/release-202610/#connect-your-ai-in-one-click" target="_blank" rel="noopener noreferrer">Home Assistant 2026.10 : nouveautés de l'intelligence artificielle</a></p>
+<p><a href="https://www.home-assistant.io/integrations/mcp_server/" target="_blank" rel="noopener noreferrer">Documentation officielle du serveur MCP</a></p>
+<h2>Home Assistant Cloud devient Home Assistant Link</h2>
+<p>L'autre annonce importante concerne le service d'abonnement proposé par Nabu Casa.</p>
+<p>Le 2 octobre 2026, l'entreprise a annoncé que <strong>Home Assistant Cloud allait devenir Home Assistant Link</strong>.</p>
+<p>Le changement officiel est prévu pour le <strong>2 décembre 2026</strong>, à l'occasion de la publication de Home Assistant 2026.12.</p>
+<h3>Pourquoi changer de nom ?</h3>
+<p>La justification de Nabu Casa est intéressante.</p>
+<p>Le terme <em>Cloud</em> est aujourd'hui souvent associé à des services propriétaires, à une dépendance permanente à Internet et à des équipements qui deviennent parfois inutilisables lorsque leur fabricant décide de fermer ses serveurs.</p>
+<p>Une situation qui va directement à l'encontre de la philosophie de Home Assistant, dont l'un des principaux objectifs reste le fonctionnement local des équipements.</p>
+<p>Nabu Casa souhaite donc abandonner cette appellation au profit de <strong>Link</strong>, un nom qui décrit davantage le rôle réel du service : établir un lien entre une installation Home Assistant locale et certains services accessibles sur Internet.</p>
+<p>Ce changement ne signifie évidemment pas que le service cessera d'utiliser des serveurs distants. Il s'agit avant tout de mieux expliquer sa fonction.</p>
+<h3>Qu'est-ce qui change concrètement ?</h3>
+<p>Pour les abonnés, <strong>rien de fondamental ne change</strong>.</p>
+<p>Home Assistant Link continuera notamment de proposer :</p>
+<ul>
+<li>Un accès distant sécurisé à son installation.</li>
+<li>Une intégration simplifiée avec Amazon Alexa et Google Assistant.</li>
+<li>Des services de reconnaissance et de synthèse vocale.</li>
+<li>La possibilité de stocker des sauvegardes chiffrées à distance.</li>
+<li>Un support technique proposé par Nabu Casa.</li>
+</ul>
+<p>L'abonnement reste facultatif et les utilisateurs actuels n'ont aucune manipulation particulière à effectuer pour ce changement de nom.</p>
+<p>Nabu Casa rappelle également qu'une partie essentielle de sa mission consiste à financer le développement de Home Assistant et les activités de l'Open Home Foundation.</p>
+<h3>Des améliorations techniques en parallèle</h3>
+<p>Ce changement de nom accompagne également plusieurs évolutions de l'infrastructure.</p>
+<p>Nabu Casa a notamment migré ses serveurs vers une infrastructure physique dédiée et renforcé leur répartition géographique.</p>
+<p>Home Assistant 2026.10 introduit également un mécanisme permettant de mesurer la latence de plusieurs serveurs afin de sélectionner une connexion plus performante.</p>
+<p>L'objectif est d'améliorer la réactivité de l'accès distant, particulièrement pour les utilisateurs éloignés des infrastructures historiques.</p>
+<p>Il ne s'agit donc pas uniquement d'une évolution marketing.</p>
+<p><strong>Annonces officielles :</strong></p>
+<p><a href="https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/" target="_blank" rel="noopener noreferrer">Home Assistant : pourquoi Cloud devient Link</a></p>
+<p><a href="https://www.nabucasa.com/news/2026-10-02-cloud-becomes-link/">Nabu Casa : annonce officielle du changement de nom</a></p>
+<h2>Mon avis</h2>
+<p>Ces deux annonces illustrent assez bien la direction prise par Home Assistant.</p>
+<p>D'un côté, l'intelligence artificielle devient progressivement plus accessible, avec des outils permettant d'interagir plus naturellement avec son installation.</p>
+<p>De l'autre, Nabu Casa réaffirme son attachement à une domotique fonctionnant prioritairement en local, sans dépendance obligatoire à des services extérieurs.</p>
+<p>Pour ma part, je reste particulièrement attaché à cette approche.</p>
+<p>L'essentiel de mon installation fonctionne localement, et je souhaite conserver cette indépendance autant que possible.</p>
+<p>L'intelligence artificielle représente certainement une évolution intéressante, notamment pour faciliter certaines interactions ou exploiter les nombreuses informations remontées par nos équipements.</p>
+<p>Mais elle soulève aussi des questions concernant la confidentialité des données, les autorisations accordées et la dépendance éventuelle à des services externes.</p>
+<p><strong>Une maison intelligente doit avant tout rester une maison que l'on maîtrise.</strong></p>
+<p>L'arrivée de nouvelles fonctionnalités est donc bienvenue, à condition de conserver cette liberté de choix qui constitue, à mes yeux, l'un des principaux atouts de Home Assistant.</p>
+<p>Quant au changement de nom de Cloud en Link, il ne bouleversera pas notre quotidien, mais il a au moins le mérite de clarifier les choses.</p>
+<hr>
+<h3>Références officielles</h3>
+<ul>
+<li><a href="https://www.home-assistant.io/blog/2026/10/07/release-202610/" target="_blank" rel="noopener noreferrer">Home Assistant 2026.10 : notes de version complètes</a></li>
+<li><a href="https://www.home-assistant.io/integrations/mcp_server/" target="_blank" rel="noopener noreferrer">Documentation de l'intégration MCP Server</a></li>
+<li><a href="https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/" target="_blank" rel="noopener noreferrer">Présentation de Home Assistant Link</a></li>
+<li><a href="https://www.nabucasa.com/news/2026-10-02-cloud-becomes-link/" target="_blank" rel="noopener noreferrer">Annonce de Nabu Casa du 2 octobre 2026</a></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>SONOFF SNZB-09P : une nouvelle sirène Zigbee polyvalente</title>
         <author>
