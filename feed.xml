@@ -3,7 +3,7 @@
     <title>Blogomotic</title>
     <link href="https://thertu.github.io/blogomotic/feed.xml" rel="self" />
     <link href="https://thertu.github.io/blogomotic" />
-    <updated>2026-10-14T08:02:16+02:00</updated>
+    <updated>2026-10-14T08:04:09+02:00</updated>
     <author>
         <name>Rtu160</name>
     </author>
@@ -95,7 +95,7 @@
 <p>Il ne s'agit donc pas uniquement d'une évolution marketing.</p>
 <p><strong>Annonces officielles :</strong></p>
 <p><a href="https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/" target="_blank" rel="noopener noreferrer">Home Assistant : pourquoi Cloud devient Link</a></p>
-<p><a href="https://www.nabucasa.com/news/2026-10-02-cloud-becomes-link/">Nabu Casa : annonce officielle du changement de nom</a></p>
+<p><a href="https://www.nabucasa.com/news/2026-10-02-cloud-becomes-link/" target="_blank" rel="noopener noreferrer">Nabu Casa : annonce officielle du changement de nom</a></p>
 <h2>Mon avis</h2>
 <p>Ces deux annonces illustrent assez bien la direction prise par Home Assistant.</p>
 <p>D'un côté, l'intelligence artificielle devient progressivement plus accessible, avec des outils permettant d'interagir plus naturellement avec son installation.</p>
