@@ -209,6 +209,22 @@
 </image:image>
 </url>
 <url>
+<loc>https://thertu.github.io/blogomotic/detecteurs-de-fumee/</loc>
+<lastmod>2026-10-19T05:41:41+02:00</lastmod>
+<image:image>
+<image:loc>https://thertu.github.io/blogomotic/media/posts/41//Detecteur-fumee-Matter.png</image:loc>
+<image:title><![CDATA[Aroha Home SM1M]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://thertu.github.io/blogomotic/media/posts/41//CarteMatter.png</image:loc>
+<image:title><![CDATA[Carte réseau Matter]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://thertu.github.io/blogomotic/media/posts/41/Automatisation-Detecteur-Fumee.png</image:loc>
+<image:title><![CDATA[Automatisation envoi de notifs sur détection]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://thertu.github.io/blogomotic/detecteurs-de-mouvement/</loc>
 <lastmod>2026-10-12T07:18:25+02:00</lastmod>
 <image:image>
@@ -270,7 +286,7 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/materiel/</loc>
-<lastmod>2026-10-11T17:49:21+02:00</lastmod>
+<lastmod>2026-10-19T05:42:58+02:00</lastmod>
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/matter-et-thread/</loc>
