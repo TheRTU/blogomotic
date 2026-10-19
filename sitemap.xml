@@ -210,7 +210,7 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/detecteurs-de-fumee/</loc>
-<lastmod>2026-10-19T06:28:10+02:00</lastmod>
+<lastmod>2026-10-19T17:04:44+02:00</lastmod>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/41//Detecteur-fumee-Matter.png</image:loc>
 <image:title><![CDATA[Aroha Home SM1M]]></image:title>
@@ -218,6 +218,10 @@
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/41//CarteMatter.png</image:loc>
 <image:title><![CDATA[Carte réseau Matter]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://thertu.github.io/blogomotic/media/posts/41/Panneau_controle_detecteur.png</image:loc>
+<image:title><![CDATA[Remontée des infos des détecteurs de fumée dans Home Assistant]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://thertu.github.io/blogomotic/media/posts/41/Automatisation-Detecteur-Fumee.png</image:loc>
