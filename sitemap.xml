@@ -290,14 +290,18 @@
 </url>
 <url>
 <loc>https://thertu.github.io/blogomotic/matter-et-thread/</loc>
-<lastmod>2026-10-11T18:00:34+02:00</lastmod>
+<lastmod>2026-10-19T06:07:22+02:00</lastmod>
 <image:image>
-<image:loc>https://thertu.github.io/blogomotic/media/posts/33/Matter1.png</image:loc>
-<image:title><![CDATA[Présentation de Matter, standard de communication pour les équipements domotiques]]></image:title>
+<image:loc>https://thertu.github.io/blogomotic/media/posts/33/SonoffDongle.png</image:loc>
+<image:title><![CDATA[ZBDongle-E]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://thertu.github.io/blogomotic/media/posts/33/Thread1.png</image:loc>
-<image:title><![CDATA[Dongle SONOFF ZBDongle-E utilisé comme interface radio Thread avec Home Assistant]]></image:title>
+<image:loc>https://thertu.github.io/blogomotic/media/posts/33/Thread.png</image:loc>
+<image:title><![CDATA[Thread dans HA]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://thertu.github.io/blogomotic/media/posts/33/CarteMatter.png</image:loc>
+<image:title><![CDATA[Réseau]]></image:title>
 </image:image>
 </url>
 <url>
